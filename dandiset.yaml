@@ -3,7 +3,8 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.10/context.json
-about: []
+about:
+- {}
 access:
 - schemaKey: AccessRequirements
   status: dandi:EmbargoedAccess
@@ -14,13 +15,47 @@ assetsSummary:
 citation: Mapping of blood flow and slow speckle tissue dynamics using laser speckle
   contrast imaging (2025). (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001541/draft
 contributor:
+- email: bliu97@bu.edu
+  identifier: 0000-0002-7335-4710
+  name: Liu, Bingxue
+  schemaKey: Person
+- email: rptang@bu.edu
+  identifier: 0000-0003-3044-0085
+  name: Tang, Rockwell
+  schemaKey: Person
+- email: elong@bu.edu
+  identifier: 0009-0007-9176-0572
+  name: Long, Emily
+  schemaKey: Person
+- email: zyaqoob@bu.edu
+  identifier: 0000-0003-2487-9497
+  name: Yaqoob, Zahid
+  schemaKey: Person
+- email: dpostnov@cfin.au.dk
+  identifier: 0000-0002-9708-8453
+  name: Postnov, Dmitry
+  schemaKey: Person
+- email: msimkul@bu.edu
+  identifier: 0009-0003-4434-0007
+  name: Simkulet, Matthew
+  schemaKey: Person
+- email: serdener@bu.edu
+  identifier: 0000-0002-5141-7899
+  name: Erdener, Sefik Evren
+  schemaKey: Person
+- email: dboas@bu.edu
+  identifier: 0000-0002-6709-7711
+  name: Boas, David
+  schemaKey: Person
+- email: xcheng17@bu.edu
+  identifier: 0000-0002-3568-0603
+  name: Cheng, Xiaojun
+  schemaKey: Person
 - awardNumber: 5 R01 NS 127156-03
   name: National Institutes of Health (NIH)
   roleName:
   - dcite:Funder
   schemaKey: Organization
-- name: Cheng, Xiaojun
-  schemaKey: Person
 dateCreated: '2025-07-24T14:02:15.923757+00:00'
 description: Laser speckle contrast imaging (LSCI) is a wide-field optical technique
   commonly used to monitor cerebral blood flow (CBF). Recently, we have discovered
@@ -38,7 +73,8 @@ description: Laser speckle contrast imaging (LSCI) is a wide-field optical techn
   to track stroke progression from minutes to days post-stroke. This study establishes
   a powerful, label-free imaging tool for investigating both cellular and vascular
   health during stroke core evolution.
-ethicsApproval: []
+ethicsApproval:
+- {}
 id: DANDI:001541/draft
 identifier: DANDI:001541
 license:
