@@ -9,9 +9,24 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 2006759680
+  numberOfFiles: 40
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ProcessingModule
 citation: Mapping of blood flow and slow speckle tissue dynamics using laser speckle
   contrast imaging (2025). (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001541/draft
 contributor:
@@ -74,7 +89,12 @@ description: Laser speckle contrast imaging (LSCI) is a wide-field optical techn
   a powerful, label-free imaging tool for investigating both cellular and vascular
   health during stroke core evolution.
 ethicsApproval:
-- {}
+- contactPoint:
+    email: IACUC@bu.edu
+    schemaKey: ContactPoint
+    url: https://www.bu.edu/research/ethics-compliance/animal-subjects/iacuc/
+  identifier: PROTO201800520_TR02
+  schemaKey: EthicsApproval
 id: DANDI:001541/draft
 identifier: DANDI:001541
 license:
