@@ -4,7 +4,8 @@
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.10/context.json
 about:
-- {}
+- name: Imaging of slow tissue dynamics
+  schemaKey: GenericType
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -17,9 +18,9 @@ assetsSummary:
   measurementTechnique:
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 2006759680
-  numberOfFiles: 40
-  numberOfSubjects: 1
+  numberOfBytes: 3105183424
+  numberOfFiles: 62
+  numberOfSubjects: 2
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -97,6 +98,11 @@ ethicsApproval:
   schemaKey: EthicsApproval
 id: DANDI:001541/draft
 identifier: DANDI:001541
+keywords:
+- laser speckle
+- stroke
+- blood flow
+- tissue dynamics
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
